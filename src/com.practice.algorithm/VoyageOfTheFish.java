@@ -22,7 +22,7 @@ public class VoyageOfTheFish {
    */
   public static void main(String[] args) {
 
-    // 时间复杂度：O(n)，空间复杂度：O(n)
+    // 时间复杂度：O(1)，空间复杂度：O(1)
     System.out.print("请输入:");
     Scanner scanner = new Scanner(System.in);
 
@@ -30,11 +30,11 @@ public class VoyageOfTheFish {
     int x = scanner.nextInt();
     long n = scanner.nextLong();
 
-    // 初始化累计游泳的公里数
+    // 累计游泳的公里数
     long result = 0;
     int sum;
 
-    // 计算周x若这一周满勤总共游泳的公里数
+    // 计算周x在开始游泳之前，若满勤则多出来多少公里
     if (x > 5) {
       sum = 250 * 5;
     } else {
@@ -54,7 +54,7 @@ public class VoyageOfTheFish {
       result += 250 * left;
     }
 
-    // 结果=总公里数-第一周满勤公里数
+    // 结果 = 总公里数 - 第一周开始游泳之前满勤的公里数
     result = result - sum;
 
     System.out.println(result);
