@@ -32,38 +32,16 @@ public class MaximumBinaryTree {
         // 按要求输出数组
         List<Integer> result = getTreeNodeVarList(treeNode);
 
-        for (Integer integer : result) {
-            System.out.println(integer);
-        }
+        result.forEach(System.out::println);
     }
 
-    public static ArrayList<Integer> getTreeNodeVarList(TreeNode node) {
-        Queue<TreeNode> queue = new LinkedList<>();
-        ArrayList<Integer> result = new ArrayList<>();
-        if (node != null) {
-            queue.add(node);
-        }
-        while (!queue.isEmpty()) {
-            int cnt = queue.size();
-            while (cnt-- > 0) {
-                TreeNode t = queue.poll();
-                if (t == null) {
-                    result.add(null);
-                    continue;
-                }
-                result.add(t.val);
-                queue.add(t.left);
-                queue.add(t.right);
-            }
-        }
-        return result;
-    }
-
+    /** 时间复杂度：O(n^2)，空间复杂度：O(n) */
     public static TreeNode constructMaximumBinaryTree(int[] nums) {
         // 可以使用递归来构造题目要求的二叉树
         return construct(nums, 0, nums.length - 1);
     }
 
+    /** 构造二叉树 */
     public static TreeNode construct(int[] nums, int left, int right) {
         // 当区间无效时，返回一棵空树
         if (left > right) {
@@ -81,6 +59,31 @@ public class MaximumBinaryTree {
         node.left = construct(nums, left, best - 1);
         node.right = construct(nums, best + 1, right);
         return node;
+    }
+
+    /** 将给定的二叉树按自上而下、从左往右拆分到list中返回 */
+    public static ArrayList<Integer> getTreeNodeVarList(TreeNode node) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        ArrayList<Integer> result = new ArrayList<>();
+        if (node != null) {
+            queue.add(node);
+        }
+        while (!queue.isEmpty()) {
+            int cnt = queue.size();
+            while (cnt-- > 0) {
+                TreeNode t = queue.poll();
+                if (t == null) {
+                    result.add(null);
+                    continue;
+                }
+                result.add(t.val);
+                if (t.left != null || t.right != null) {
+                    queue.add(t.left);
+                    queue.add(t.right);
+                }
+            }
+        }
+        return result;
     }
 
     /** 定义一棵二叉树 */
