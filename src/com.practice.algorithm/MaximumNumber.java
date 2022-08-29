@@ -6,7 +6,7 @@ import java.util.List;
 /** 最大数 */
 public class MaximumNumber {
     /**
-     * 题目描述：
+     * 题目描述：最大数
      *
      * <p>给定任意一个数字 m，然后给出数字 n，则需在 m 中去掉 n 位数，保持各位顺序不变的情况下，得到最大数。
      *
@@ -19,11 +19,11 @@ public class MaximumNumber {
     public static void main(String[] args) {
         // 由于题目要求的m和n的范围显然大过整数long的范围，所以此处我们使用字符串处理
         System.out.println(solution("1234", 2));
-        System.out.println(solution("1", 1));
         System.out.println(solution("343", 1));
         System.out.println(solution("1342141", 5));
     }
 
+    /** 时间复杂度：O(n)，空间复杂度：O(n) */
     public static String solution(String m, int n) {
         if (n < 1 || m.isEmpty()) {
             return m;
