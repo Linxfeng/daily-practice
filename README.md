@@ -12,7 +12,7 @@
 - 三数之和
 - 四数之和
 - 最长回文
-- 周几读完书
+- [周几读完书](src/com.practice.algorithm/ReadBookOnWeek.java)
 - 分层遍历二叉树
 - 最大相等频率
 - 整数反转
