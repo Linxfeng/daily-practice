@@ -4,7 +4,6 @@
 
 ## 题目列表：（每日更新）
 
-- [特殊的二进制序列](src/com.practice.algorithm/SpecialBinaryString.java)
 - [小鱼的航程(改进版)](src/com.practice.algorithm/VoyageOfTheFish.java)
 - [求解方程](src/com.practice.algorithm/SolveTheEquation.java)
 - [吃掉 N 个橘子的最少天数](src/com.practice.algorithm/EatOrangesMinDays.java)
@@ -27,3 +26,5 @@
 - [Z 字形变换](src/com.practice.algorithm/ZTransform.java)
 - [走楼梯](src/com.practice.algorithm/WalkTheStair.java)
 - [圆桌座位](src/com.practice.algorithm/RoundTableSeating.java)
+- [特殊的二进制序列](src/com.practice.algorithm/SpecialBinaryString.java)
+- [验证栈序列](src/com.practice.algorithm/ValidateStackSequences.java)
