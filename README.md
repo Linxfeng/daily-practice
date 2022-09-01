@@ -28,3 +28,4 @@
 - [圆桌座位](src/com.practice.algorithm/RoundTableSeating.java)
 - [特殊的二进制序列](src/com.practice.algorithm/SpecialBinaryString.java)
 - [验证栈序列](src/com.practice.algorithm/ValidateStackSequences.java)
+- [商品折扣后的最终价格](src/com.practice.algorithm/DiscountFinalPrices.java)
