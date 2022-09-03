@@ -17,6 +17,7 @@
 - [最大数](src/com.practice.algorithm/MaximumNumber.java)
 - [回文数](src/com.practice.algorithm/PalindromeNumber.java)
 - [最长回文](src/com.practice.algorithm/LongestPalindrome.java)
+- [最长数对链](src/com.practice.algorithm/LongestPairChain.java)
 - [最大相等频率](src/com.practice.algorithm/MaxEqualFreq.java)
 - [非负整数求和](src/com.practice.algorithm/SumOfIntegers.java)
 - [整数反转](src/com.practice.algorithm/IntegerReverse.java)
