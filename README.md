@@ -31,3 +31,4 @@
 - [特殊的二进制序列](src/com.practice.algorithm/SpecialBinaryString.java)
 - [验证栈序列](src/com.practice.algorithm/ValidateStackSequences.java)
 - [商品折扣后的最终价格](src/com.practice.algorithm/DiscountFinalPrices.java)
+- [盛最多水的容器](src/com.practice.algorithm/FindTheMaxArea.java)
