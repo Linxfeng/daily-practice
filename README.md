@@ -27,6 +27,7 @@
 - [最大二叉树](src/com.practice.algorithm/MaximumBinaryTree.java)
 - [Z 字形变换](src/com.practice.algorithm/ZTransform.java)
 - [走楼梯](src/com.practice.algorithm/WalkTheStair.java)
+- [逃离城堡](src/com.practice.algorithm/EscapeTheCastle.java)
 - [圆桌座位](src/com.practice.algorithm/RoundTableSeating.java)
 - [特殊的二进制序列](src/com.practice.algorithm/SpecialBinaryString.java)
 - [验证栈序列](src/com.practice.algorithm/ValidateStackSequences.java)
