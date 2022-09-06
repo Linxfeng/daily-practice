@@ -21,6 +21,7 @@
 - [最大相等频率](src/com.practice.algorithm/MaxEqualFreq.java)
 - [非负整数求和](src/com.practice.algorithm/SumOfIntegers.java)
 - [整数反转](src/com.practice.algorithm/IntegerReverse.java)
+- [整数分割](src/com.practice.algorithm/IntegerSplit.java)
 - [字符串全排列](src/com.practice.algorithm/StringFullArray.java)
 - [单向链表求并集](src/com.practice.algorithm/SinglyLinkedListUnion.java)
 - [分层遍历二叉树](src/com.practice.algorithm/TraverseBinaryTree.java)
