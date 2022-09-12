@@ -34,10 +34,10 @@ public class StringToInteger {
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     public static void main(String[] args) {
-        // 这道题解决方法有两种，一个是利用斐波那契数列，即递归方法，另一种是利用动态规划方法。
         System.out.println(a2i("  -4193 with words 1"));
     }
 
+    /** 时间复杂度：O(n)，空间复杂度：O(1) */
     public static int a2i(String s) {
         if (s.trim().length() == 0) {
             return 0;
