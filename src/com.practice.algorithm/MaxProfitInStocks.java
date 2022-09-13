@@ -17,7 +17,7 @@ public class MaxProfitInStocks {
      * <p>示例 1：输入 2 4 3 7；输出 8
      */
     public static void main(String[] args) {
-        // 根据示例得知，本题买入时需要取整
+        // 根据示例得知，本题买入时需要取整，并且返回的最大收益需要加上本金
         System.out.println(solution(2, 4, Arrays.asList(3, 7)));
         System.out.println(solution(4, 4, Arrays.asList(3, 7, 8, 2)));
         System.out.println(solution(3, 4, Arrays.asList(3, 2, 1)));
@@ -30,65 +30,27 @@ public class MaxProfitInStocks {
         if (n <= 1 || arr.isEmpty()) {
             return m;
         }
-        // 买入的下标
-        int index = 0;
-        // 每天的净值增长
-        int incr = 0;
-        int res = -1;
+        // 单股最小值
+        int min = arr.get(0);
+        // 单股最大收益
+        int maxDiff = 0;
         for (int i = 1; i < arr.size(); i++) {
-            // 若昨日净增长大于0，则今日的总增长=昨日+今日
-            if (incr >= 0) {
-                incr = arr.get(i) - arr.get(i - 1) + incr;
-                // 昨日买入
-                if (index < 0) {
-                    index = i - 1;
-                }
-            } else {
-                // 否则，从今天重新开始计算
-                incr = arr.get(i) - arr.get(i - 1);
-                index = i - 1;
+            // 取的最小值，最后一个最小值就没必要取了
+            if (arr.get(i - 1) < min) {
+                min = arr.get(i - 1);
             }
-            // 取最大总增长
-            res = Math.max(res, incr);
+            int currentDiff = arr.get(i) - min;
+            if (currentDiff > maxDiff) {
+                maxDiff = currentDiff;
+            }
         }
 
         // 买入股份取整
-        int k = arr.get(index);
-        int p = m / k;
-        // 一份都买不起的情况需要单独计算
-        if (p == 0) {
-            int idx = -1;
-            int diff = 0;
-            for (int i = 0; i < arr.size(); i++) {
-                if (m >= arr.get(i)) {
-                    // 买得起
-                    idx = i;
-                }
-                // 从买得起一份的下标开始往后计算
-                if (idx >= 0) {
-                    int j = idx;
-                    // 找到当前下标i后面的最大值
-                    int temp = 0;
-                    while (j < arr.size()) {
-                        temp = Math.max(temp, arr.get(j));
-                        j++;
-                    }
-                    // 总收益
-                    int p1 = m / arr.get(idx);
-                    int r = p1 * (temp - arr.get(idx));
-                    diff = Math.max(diff, r);
-                    idx = -1;
-                }
-            }
-            // 买得起的最大收益diff
-            return m + diff;
-        }
-        // 收益为负，则返回本金
-        int r = p * res;
-        if (r < 0) {
-            return m;
-        }
+        int p = m / min;
+        // 计算收益
+        int res = p * maxDiff;
+
         // 返回本金+收益
-        return m + r;
+        return m + res;
     }
 }
