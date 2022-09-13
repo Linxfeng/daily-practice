@@ -40,3 +40,4 @@
 - [商品折扣后的最终价格](src/com.practice.algorithm/DiscountFinalPrices.java)
 - [盛最多水的容器](src/com.practice.algorithm/FindTheMaxArea.java)
 - [股票最大收益](src/com.practice.algorithm/MaxProfitInStocks.java)
+- [整数最大交换](src/com.practice.algorithm/IntegerMaxSwap.java)
