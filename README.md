@@ -26,6 +26,7 @@
 - [寻找正序数组的中位数](src/com.practice.algorithm/FindMedianSortedArrays.java)
 - [整数反转](src/com.practice.algorithm/IntegerReverse.java)
 - [整数分割](src/com.practice.algorithm/IntegerSplit.java)
+- [括号染色](src/com.practice.algorithm/ColorBrackets.java)
 - [字符串全排列](src/com.practice.algorithm/StringFullArray.java)
 - [单向链表求并集](src/com.practice.algorithm/SinglyLinkedListUnion.java)
 - [分层遍历二叉树](src/com.practice.algorithm/TraverseBinaryTree.java)
