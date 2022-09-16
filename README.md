@@ -25,6 +25,7 @@
 - [连续子数组的最大和](src/com.practice.algorithm/MaxSumOfSubarray.java)
 - [不重复字符最长子串](src/com.practice.algorithm/LongestSubstring.java)
 - [寻找正序数组的中位数](src/com.practice.algorithm/FindMedianSortedArrays.java)
+- [查找整数](src/com.practice.algorithm/FindInteger.java)
 - [整数反转](src/com.practice.algorithm/IntegerReverse.java)
 - [整数分割](src/com.practice.algorithm/IntegerSplit.java)
 - [括号染色](src/com.practice.algorithm/ColorBrackets.java)
