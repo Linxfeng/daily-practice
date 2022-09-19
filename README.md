@@ -42,6 +42,7 @@
 - [圆桌座位](src/com.practice.algorithm/RoundTableSeating.java)
 - [特殊的二进制序列](src/com.practice.algorithm/SpecialBinaryString.java)
 - [验证栈序列](src/com.practice.algorithm/ValidateStackSequences.java)
+- [倒置子序列](src/com.practice.algorithm/InversionSubsequence.java)
 - [商品折扣后的最终价格](src/com.practice.algorithm/DiscountFinalPrices.java)
 - [盛最多水的容器](src/com.practice.algorithm/FindTheMaxArea.java)
 - [股票最大收益](src/com.practice.algorithm/MaxProfitInStocks.java)
