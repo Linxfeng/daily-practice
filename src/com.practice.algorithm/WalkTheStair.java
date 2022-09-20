@@ -16,24 +16,24 @@ public class WalkTheStair {
      * <p>示例1：输入 5，输出 8
      */
     public static void main(String[] args) {
-        // 这道题解决方法有两种，一个是利用斐波那契数列，即递归方法，另一种是利用动态规划方法。
         System.out.println(walkTheStair(5));
     }
 
     /** 时间复杂度：O(n)，空间复杂度：O(1) */
     public static int walkTheStair(int n) {
-        int result = 0;
-        int a = 1, b = 2;
         // 如果只有1级或者2级楼梯，则可直接返回结果
         if (n == 1 || n == 2) {
-            result = n;
-        } else {
-            // 楼梯超过两级，可以不断地去累加它的方案，也可以直接使用递归
-            for (int i = 2; i < n; i++) {
-                result = a + b;
-                a = b;
-                b = result;
-            }
+            return n;
+        }
+
+        int result = 0;
+        int a = 1, b = 2;
+        // 楼梯超过两级，可以不断地去累加它的方案
+        for (int i = 2; i < n; i++) {
+            // 每次累计，需要更新a,b的值
+            result = a + b;
+            a = b;
+            b = result;
         }
         return result;
     }
