@@ -1,7 +1,5 @@
 package com.practice.algorithm;
 
-import java.util.Scanner;
-
 /** 小鱼的航程(改进版) */
 public class VoyageOfTheFish {
     /**
@@ -20,43 +18,42 @@ public class VoyageOfTheFish {
      * <p>来源：洛谷 P1424 小鱼的航程(改进版) 链接：https://www.luogu.com.cn/problem/P1424
      */
     public static void main(String[] args) {
+        System.out.println(solution(2, 10));
+    }
 
-        // 时间复杂度：O(1)，空间复杂度：O(1)
-        System.out.print("请输入:");
-        Scanner scanner = new Scanner(System.in);
-
-        // 输入的值，x是周几，n是经过的天数
-        int x = scanner.nextInt();
-        long n = scanner.nextLong();
+    /** 时间复杂度：O(1)，空间复杂度：O(1) */
+    public static long solution(int x, long n) {
+        // 一周工作5天
+        int r = 5;
+        // 工作日每天游250公里
+        int s = 250;
 
         // 累计游泳的公里数
         long result = 0;
         int sum;
 
         // 计算周x在开始游泳之前，若满勤则多出来多少公里
-        if (x > 5) {
-            sum = 250 * 5;
+        if (x > r) {
+            sum = s * r;
         } else {
-            sum = 250 * (x - 1);
+            sum = s * (x - 1);
         }
 
         // 满勤几周，每周5天，总的公里数
         long week = (x + n - 1) / 7;
         if (week > 0) {
-            result = week * 5 * 250;
+            result = week * r * s;
         }
+
         // 最后一周剩余几天，游的公里数
         long left = (x + n - 1) % 7;
-        if (left > 5) {
-            result += 250 * 5;
+        if (left > r) {
+            result += s * r;
         } else {
-            result += 250 * left;
+            result += s * left;
         }
 
         // 结果 = 总公里数 - 第一周开始游泳之前满勤的公里数
-        result = result - sum;
-
-        System.out.println(result);
-        scanner.close();
+        return result - sum;
     }
 }
