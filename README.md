@@ -6,6 +6,7 @@
 
 - [小鱼的航程(改进版)](src/com.practice.algorithm/VoyageOfTheFish.java)
 - [求解方程](src/com.practice.algorithm/SolveTheEquation.java)
+- [三而竭](src/com.practice.algorithm/ThreeToExhaustion.java)
 - [吃掉 N 个橘子的最少天数](src/com.practice.algorithm/EatOrangesMinDays.java)
 - [周几读完书](src/com.practice.algorithm/ReadBookOnWeek.java)
 - [用户分组](src/com.practice.algorithm/GroupThePeople.java)
