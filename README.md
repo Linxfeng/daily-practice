@@ -19,6 +19,7 @@
 - [回文数](src/com.practice.algorithm/PalindromeNumber.java)
 - [最长回文](src/com.practice.algorithm/LongestPalindrome.java)
 - [最长数对链](src/com.practice.algorithm/LongestPairChain.java)
+- [最长连续序列](src/com.practice.algorithm/LongestContinuousSequence.java)
 - [最长递增区间](src/com.practice.algorithm/LongestIncreasingInterval.java)
 - [最长公共前缀](src/com.practice.algorithm/LongestCommonPrefix.java)
 - [最大相等频率](src/com.practice.algorithm/MaxEqualFreq.java)
