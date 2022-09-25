@@ -38,6 +38,7 @@
 - [分层遍历二叉树](src/com.practice.algorithm/TraverseBinaryTree.java)
 - [最大二叉树](src/com.practice.algorithm/MaximumBinaryTree.java)
 - [Z 字形变换](src/com.practice.algorithm/ZTransform.java)
+- [X 国货币](src/com.practice.algorithm/CurrencyOfX.java)
 - [消除字符串分身](src/com.practice.algorithm/EliminateStringDouble.java)
 - [走楼梯](src/com.practice.algorithm/WalkTheStair.java)
 - [逃离城堡](src/com.practice.algorithm/EscapeTheCastle.java)
