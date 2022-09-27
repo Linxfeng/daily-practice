@@ -43,6 +43,7 @@
 - [走楼梯](src/com.practice.algorithm/WalkTheStair.java)
 - [逃离城堡](src/com.practice.algorithm/EscapeTheCastle.java)
 - [圆桌座位](src/com.practice.algorithm/RoundTableSeating.java)
+- [逆波兰记法](src/com.practice.algorithm/ReversePolishNotation.java)
 - [特殊的二进制序列](src/com.practice.algorithm/SpecialBinaryString.java)
 - [验证栈序列](src/com.practice.algorithm/ValidateStackSequences.java)
 - [倒置子序列](src/com.practice.algorithm/InversionSubsequence.java)
