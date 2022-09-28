@@ -54,3 +54,4 @@
 - [整数最大交换](src/com.practice.algorithm/IntegerMaxSwap.java)
 - [矩阵最短路径](src/com.practice.algorithm/MatrixShortestPath.java)
 - [节点距离最近](src/com.practice.algorithm/NearestNodeDistance.java)
+- [莫名其妙的键盘](src/com.practice.algorithm/InexplicableKeyboard.java)
