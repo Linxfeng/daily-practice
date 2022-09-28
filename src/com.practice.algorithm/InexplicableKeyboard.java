@@ -27,7 +27,7 @@ public class InexplicableKeyboard {
         System.out.println(solution("ac"));
     }
 
-    /** 时间复杂度：O(log n)，空间复杂度：O(1) */
+    /** 时间复杂度：O(n log n)，空间复杂度：O(n) */
     public static int solution(String str) {
         List<Character> vowel = Arrays.asList('a', 'e', 'i', 'o', 'u');
         char[] chars = str.toCharArray();
