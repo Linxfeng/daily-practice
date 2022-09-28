@@ -34,14 +34,34 @@ public class MaxProfitInStocks {
         int min = arr.get(0);
         // 单股最大收益
         int maxDiff = 0;
+
         for (int i = 1; i < arr.size(); i++) {
-            // 取的最小值，最后一个最小值就没必要取了
+            // 寻找最小值，最后一个最小值舍去
+            int minTemp = min;
             if (arr.get(i - 1) < min) {
-                min = arr.get(i - 1);
-            }
-            int currentDiff = arr.get(i) - min;
-            if (currentDiff > maxDiff) {
-                maxDiff = currentDiff;
+                minTemp = arr.get(i - 1);
+                // 每次取最小值时，都需要重新计算一遍最大值
+                int j = i;
+                while (j < arr.size()) {
+                    // 如果再次遇到比当前最小值更小的值，则终止计算最大值
+                    int a = arr.get(j);
+                    if (a < minTemp) {
+                        break;
+                    }
+                    int currentDiff = a - minTemp;
+                    if (currentDiff >= maxDiff) {
+                        // 取得最大收益和最小值
+                        maxDiff = currentDiff;
+                        min = minTemp;
+                    }
+                    j++;
+                }
+            } else {
+                // 最小值未刷新，取最大值
+                int currentDiff = arr.get(i) - minTemp;
+                if (currentDiff >= maxDiff) {
+                    maxDiff = currentDiff;
+                }
             }
         }
 
