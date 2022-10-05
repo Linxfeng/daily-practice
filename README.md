@@ -29,6 +29,7 @@
 - [长度最小的子数组](src/com.practice.algorithm/MinSubArrayLength.java)
 - [不重复字符最长子串](src/com.practice.algorithm/LongestSubstring.java)
 - [寻找正序数组的中位数](src/com.practice.algorithm/FindMedianSortedArrays.java)
+- [数组奇偶排序](src/com.practice.algorithm/ArrayParitySort.java)
 - [查找整数](src/com.practice.algorithm/FindInteger.java)
 - [整数反转](src/com.practice.algorithm/IntegerReverse.java)
 - [整数分割](src/com.practice.algorithm/IntegerSplit.java)
