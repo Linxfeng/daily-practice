@@ -36,6 +36,7 @@
 - [整数分割](src/com.practice.algorithm/IntegerSplit.java)
 - [整数计数](src/com.practice.algorithm/IntegerCount.java)
 - [硬币划分](src/com.practice.algorithm/DivideCoins.java)
+- [括号生成](src/com.practice.algorithm/GenerateParenthesis.java)
 - [括号染色](src/com.practice.algorithm/ColorBrackets.java)
 - [字符串全排列](src/com.practice.algorithm/StringFullArray.java)
 - [单向链表求并集](src/com.practice.algorithm/SinglyLinkedListUnion.java)
