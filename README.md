@@ -45,6 +45,7 @@
 - [Z 字形变换](src/com.practice.algorithm/ZTransform.java)
 - [X 国货币](src/com.practice.algorithm/CurrencyOfX.java)
 - [消除字符串分身](src/com.practice.algorithm/EliminateStringDouble.java)
+- [字符串出现次数](src/com.practice.algorithm/StringOccursMostTimes.java)
 - [走楼梯](src/com.practice.algorithm/WalkTheStair.java)
 - [逃离城堡](src/com.practice.algorithm/EscapeTheCastle.java)
 - [圆桌座位](src/com.practice.algorithm/RoundTableSeating.java)
