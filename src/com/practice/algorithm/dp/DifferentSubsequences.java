@@ -27,7 +27,7 @@ public class DifferentSubsequences {
         System.out.println(solution("babgbag", "bag"));
     }
 
-    /** 时间复杂度：O(n)，空间复杂度：O(1) */
+    /** 时间复杂度：O(n)，空间复杂度：O(n) */
     public static int solution(String s, String t) {
         int n1 = s.length();
         int n2 = t.length();
