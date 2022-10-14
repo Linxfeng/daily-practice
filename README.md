@@ -72,6 +72,7 @@
     - [矩阵最短路径](src/com/practice/algorithm/dp/MatrixShortestPath.java)
     - [Z 字形变换](src/com/practice/algorithm/dp/ZTransform.java)
     - [不同的子序列](src/com/practice/algorithm/dp/DifferentSubsequences.java)
+    - [不同的子序列2](src/com/practice/algorithm/dp/DifferentSubsequences2.java)
     - [青蛙过河](src/com/practice/algorithm/dp/FrogAcrossTheRiver.java)
 
 
