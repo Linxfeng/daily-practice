@@ -39,6 +39,7 @@
     - [验证栈序列](src/com/practice/algorithm/array/ValidateStackSequences.java)
     - [倒置子序列](src/com/practice/algorithm/array/InversionSubsequence.java)
     - [排列序列](src/com/practice/algorithm/array/PermutationSequence.java)
+    - [奇偶排序](src/com/practice/algorithm/array/OddAndEvenSort.java)
     - [单向链表求并集](src/com/practice/algorithm/array/SinglyLinkedListUnion.java)
     - [分层遍历二叉树](src/com/practice/algorithm/array/TraverseBinaryTree.java)
     - [最大二叉树](src/com/practice/algorithm/array/MaximumBinaryTree.java)
