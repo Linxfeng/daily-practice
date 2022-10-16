@@ -75,6 +75,7 @@
     - [不同的子序列](src/com/practice/algorithm/dp/DifferentSubsequences.java)
     - [不同的子序列2](src/com/practice/algorithm/dp/DifferentSubsequences2.java)
     - [青蛙过河](src/com/practice/algorithm/dp/FrogAcrossTheRiver.java)
+    - [一和零的最大子集](src/com/practice/algorithm/dp/MaxSubsetOneAndZero.java)
 
 
 - 查找
