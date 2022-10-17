@@ -96,3 +96,4 @@
     - [逃离城堡](src/com/practice/algorithm/other/EscapeTheCastle.java)
     - [圆桌座位](src/com/practice/algorithm/other/RoundTableSeating.java)
     - [股票最大收益](src/com/practice/algorithm/other/MaxProfitInStocks.java)
+    - [多边形的面积](src/com/practice/algorithm/other/AreaOfPolygon.java)
