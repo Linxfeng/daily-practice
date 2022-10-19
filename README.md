@@ -20,6 +20,7 @@
     - [字符串相乘](src/com/practice/algorithm/string/StringMultiplication.java)
     - [单词逆序](src/com/practice/algorithm/string/WordReverseOrder.java)
     - [同构字符串](src/com/practice/algorithm/string/IsomorphicString.java)
+    - [串联单词子串](src/com/practice/algorithm/string/ConcatenateWordSubstrings.java)
 
 
 - 数组
