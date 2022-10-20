@@ -16,6 +16,7 @@
     - [特殊的二进制序列](src/com/practice/algorithm/string/SpecialBinaryString.java)
     - [最大数](src/com/practice/algorithm/string/MaximumNumber.java)
     - [最长回文](src/com/practice/algorithm/string/LongestPalindrome.java)
+    - [最短回文](src/com/practice/algorithm/string/ShortestPalindrome.java)
     - [求解方程](src/com/practice/algorithm/string/SolveTheEquation.java)
     - [字符串相乘](src/com/practice/algorithm/string/StringMultiplication.java)
     - [单词逆序](src/com/practice/algorithm/string/WordReverseOrder.java)
