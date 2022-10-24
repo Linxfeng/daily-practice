@@ -94,6 +94,7 @@
 
     - [小鱼的航程(改进版)](src/com/practice/algorithm/other/VoyageOfTheFish.java)
     - [周几读完书](src/com/practice/algorithm/other/ReadBookOnWeek.java)
+    - [分步游泳](src/com/practice/algorithm/other/SwimmingIinSteps.java)
     - [X 国货币](src/com/practice/algorithm/other/CurrencyOfX.java)
     - [走楼梯](src/com/practice/algorithm/other/WalkTheStair.java)
     - [逃离城堡](src/com/practice/algorithm/other/EscapeTheCastle.java)
