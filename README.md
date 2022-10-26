@@ -49,6 +49,7 @@
     - [最大相等频率](src/com/practice/algorithm/array/MaxEqualFreq.java)
     - [商品折扣后的最终价格](src/com/practice/algorithm/array/DiscountFinalPrices.java)
     - [查找旋转排序数组](src/com/practice/algorithm/array/FindRotatedSortedArray.java)
+    - [环形加油站](src/com/practice/algorithm/array/AnnularGasStation.java)
 
 
 - 整数
