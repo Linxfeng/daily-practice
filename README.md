@@ -42,6 +42,7 @@
     - [验证栈序列](src/com/practice/algorithm/array/ValidateStackSequences.java)
     - [倒置子序列](src/com/practice/algorithm/array/InversionSubsequence.java)
     - [排列序列](src/com/practice/algorithm/array/PermutationSequence.java)
+    - [等差数列](src/com/practice/algorithm/array/SameDifferenceSequence.java)
     - [数组子集全排列](src/com/practice/algorithm/array/SubsetPermutation.java)
     - [单向链表求并集](src/com/practice/algorithm/array/SinglyLinkedListUnion.java)
     - [分层遍历二叉树](src/com/practice/algorithm/array/TraverseBinaryTree.java)
