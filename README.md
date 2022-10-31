@@ -63,6 +63,7 @@
     - [两数相除](src/com/practice/algorithm/integer/DivideTwoNumbers.java)
     - [回文数](src/com/practice/algorithm/integer/PalindromeNumber.java)
     - [整数最大交换](src/com/practice/algorithm/integer/IntegerMaxSwap.java)
+    - [阶乘后的零](src/com/practice/algorithm/integer/ZeroAfterFactorial.java)
 
 
 - 递归
