@@ -14,6 +14,7 @@
     - [最长公共前缀](src/com/practice/algorithm/string/LongestCommonPrefix.java)
     - [不重复字符最长子串](src/com/practice/algorithm/string/LongestSubstring.java)
     - [特殊的二进制序列](src/com/practice/algorithm/string/SpecialBinaryString.java)
+    - [交换后的二进制串](src/com/practice/algorithm/string/SwappedBinaryString.java)
     - [最大数](src/com/practice/algorithm/string/MaximumNumber.java)
     - [最长回文](src/com/practice/algorithm/string/LongestPalindrome.java)
     - [最短回文](src/com/practice/algorithm/string/ShortestPalindrome.java)
