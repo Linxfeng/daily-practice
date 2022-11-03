@@ -72,6 +72,7 @@
 
     - [莫名其妙的键盘](src/com/practice/algorithm/recursion/InexplicableKeyboard.java)
     - [吃掉 N 个橘子的最少天数](src/com/practice/algorithm/recursion/EatOrangesMinDays.java)
+    - [反转链表](src/com/practice/algorithm/recursion/ReverseLinkedList.java)
 
 
 - 动态规划
