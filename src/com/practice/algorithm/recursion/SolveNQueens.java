@@ -26,7 +26,7 @@ public class SolveNQueens {
         System.out.println(solution(4));
     }
 
-    /** 时间复杂度：O(n)，空间复杂度：O(n) */
+    /** 时间复杂度：O(n log n)，空间复杂度：O(n) */
     public static List<List<String>> solution(int n) {
         List<List<String>> res = new ArrayList<>();
         int[] queenList = new int[n];
