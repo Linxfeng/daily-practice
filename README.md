@@ -74,7 +74,8 @@
     - [吃掉 N 个橘子的最少天数](src/com/practice/algorithm/recursion/EatOrangesMinDays.java)
     - [反转链表](src/com/practice/algorithm/recursion/ReverseLinkedList.java)
     - [消除游戏](src/com/practice/algorithm/recursion/EliminateLastRemaining.java)
-    - [N 皇后](src/com/practice/algorithm/dp/SolveNQueens.java)
+    - [N 皇后](src/com/practice/algorithm/recursion/SolveNQueens.java)
+    - [递归乘法](src/com/practice/algorithm/recursion/RecursiveMultiplication.java)
 
 
 - 动态规划
