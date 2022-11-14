@@ -101,6 +101,7 @@
     - [三而竭](src/com/practice/algorithm/find/ThreeToExhaustion.java)
     - [最长数对链](src/com/practice/algorithm/find/LongestPairChain.java)
     - [用户分组](src/com/practice/algorithm/find/GroupThePeople.java)
+    - [最大矩阵面积](src/com/practice/algorithm/find/MaximumMatrixArea.java)
 
 
 - 其他
