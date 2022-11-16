@@ -68,6 +68,7 @@
     - [整数最大交换](src/com/practice/algorithm/integer/IntegerMaxSwap.java)
     - [阶乘后的零](src/com/practice/algorithm/integer/ZeroAfterFactorial.java)
     - [缺失的第一个正整数](src/com/practice/algorithm/integer/FirstMissingPositiveInteger.java)
+    - [撕花瓣游戏](src/com/practice/algorithm/integer/PetalTearingGame.java)
 
 
 - 递归
