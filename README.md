@@ -104,6 +104,7 @@
     - [最长数对链](src/com/practice/algorithm/find/LongestPairChain.java)
     - [用户分组](src/com/practice/algorithm/find/GroupThePeople.java)
     - [最大矩阵面积](src/com/practice/algorithm/find/MaximumMatrixArea.java)
+    - [搜索插入位置](src/com/practice/algorithm/find/SearchInsertPosition.java)
 
 
 - 其他
