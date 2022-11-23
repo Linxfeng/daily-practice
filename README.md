@@ -108,6 +108,7 @@
     - [最大矩阵面积](src/com/practice/algorithm/find/MaximumMatrixArea.java)
     - [搜索插入位置](src/com/practice/algorithm/find/SearchInsertPosition.java)
     - [搜索旋转排序数组](src/com/practice/algorithm/find/SearchRotatedSortedArray.java)
+    - [搜索旋转排序数组2](src/com/practice/algorithm/find/SearchRotatedSortedArray.java)
 
 
 - 其他
