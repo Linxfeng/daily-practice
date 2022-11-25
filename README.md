@@ -56,6 +56,7 @@
     - [非降序数组](src/com/practice/algorithm/array/NonDescendingArray.java)
     - [数组最小元素](src/com/practice/algorithm/array/MinimumElementInArray.java)
     - [汇总区间](src/com/practice/algorithm/array/SummaryRanges.java)
+    - [跳跃游戏](src/com/practice/algorithm/array/JumpGames.java)
 
 
 - 整数
