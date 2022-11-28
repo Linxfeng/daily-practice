@@ -82,6 +82,7 @@
     - [消除游戏](src/com/practice/algorithm/recursion/EliminateLastRemaining.java)
     - [N 皇后](src/com/practice/algorithm/recursion/SolveNQueens.java)
     - [递归乘法](src/com/practice/algorithm/recursion/RecursiveMultiplication.java)
+    - [交换链表中的节点](src/com/practice/algorithm/recursion/SwapNodesInLinkedList.java)
 
 
 - 动态规划
