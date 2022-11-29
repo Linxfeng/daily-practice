@@ -98,6 +98,7 @@
     - [一和零的最大子集](src/com/practice/algorithm/dp/MaxSubsetOneAndZero.java)
     - [分割回文串](src/com/practice/algorithm/dp/SplitPalindrome.java)
     - [戳气球](src/com/practice/algorithm/dp/PokeBalloon.java)
+    - [接雨水](src/com/practice/algorithm/dp/CatchRainwater.java)
 
 
 - 查找
