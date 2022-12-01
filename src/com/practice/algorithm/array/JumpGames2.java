@@ -1,6 +1,6 @@
 package com.practice.algorithm.array;
 
-/** 跳跃游戏 */
+/** 跳跃游戏2 */
 public class JumpGames2 {
     /**
      * 题目描述：
