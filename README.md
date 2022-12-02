@@ -24,6 +24,7 @@
     - [同构字符串](src/com/practice/algorithm/string/IsomorphicString.java)
     - [串联单词子串](src/com/practice/algorithm/string/ConcatenateWordSubstrings.java)
     - [字符串转换](src/com/practice/algorithm/string/StringConversion.java)
+    - [最小覆盖子串](src/com/practice/algorithm/string/MinCoveringSubstring.java)
 
 
 - 数组
