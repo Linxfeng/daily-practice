@@ -64,7 +64,6 @@ public class SortedLinkedList {
         ListNode p2 = head.next;
         if (p2.next != null) {
             p1 = p1.next;
-            p2 = p2.next.next;
         }
         ListNode left = head;
         ListNode right = p1.next;
