@@ -86,6 +86,7 @@
     - [递归乘法](src/com/practice/algorithm/recursion/RecursiveMultiplication.java)
     - [交换链表中的节点](src/com/practice/algorithm/recursion/SwapNodesInLinkedList.java)
     - [杨辉三角](src/com/practice/algorithm/recursion/YangHuiTriangle.java)
+    - [排序链表](src/com/practice/algorithm/recursion/SortedLinkedList.java)
 
 
 - 动态规划
