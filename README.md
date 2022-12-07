@@ -101,9 +101,10 @@
     - [不同的子序列2](src/com/practice/algorithm/dp/DifferentSubsequences2.java)
     - [青蛙过河](src/com/practice/algorithm/dp/FrogAcrossTheRiver.java)
     - [一和零的最大子集](src/com/practice/algorithm/dp/MaxSubsetOneAndZero.java)
-    - [分割回文串](src/com/practice/algorithm/dp/SplitPalindrome.java)
     - [戳气球](src/com/practice/algorithm/dp/PokeBalloon.java)
     - [接雨水](src/com/practice/algorithm/dp/CatchRainwater.java)
+    - [分割回文串](src/com/practice/algorithm/dp/SplitPalindrome.java)
+    - [分割回文串2](src/com/practice/algorithm/dp/SplitPalindrome2.java)
 
 
 - 查找
