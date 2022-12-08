@@ -58,6 +58,7 @@
     - [非降序数组](src/com/practice/algorithm/array/NonDescendingArray.java)
     - [数组最小元素](src/com/practice/algorithm/array/MinimumElementInArray.java)
     - [汇总区间](src/com/practice/algorithm/array/SummaryRanges.java)
+    - [插入区间](src/com/practice/algorithm/array/InsertInterval.java)
     - [跳跃游戏](src/com/practice/algorithm/array/JumpGames.java)
     - [跳跃游戏2](src/com/practice/algorithm/array/JumpGames2.java)
 
