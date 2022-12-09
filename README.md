@@ -106,6 +106,7 @@
     - [接雨水](src/com/practice/algorithm/dp/CatchRainwater.java)
     - [分割回文串](src/com/practice/algorithm/dp/SplitPalindrome.java)
     - [分割回文串2](src/com/practice/algorithm/dp/SplitPalindrome2.java)
+    - [不同路径2](src/com/practice/algorithm/dp/DifferentPaths2.java)
 
 
 - 查找
